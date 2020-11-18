@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'tweets/new'
   get 'messages/index'
   get 'contacts/new'
   devise_for :users
@@ -8,4 +9,6 @@ Rails.application.routes.draw do
   get 'products/search'
   resources :users, only: [:edit, :update]
   resources :messages, only: [:new, :create, :edit, :update]
+
+  resources :tweets, only: [:new, :create]
 end
