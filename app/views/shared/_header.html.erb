@@ -1,0 +1,22 @@
+<div class="nav">
+<div class="lists-left">
+<%= link_to 'Medical Helper', root_path, class: "header-link" %>
+<p>時間のない方に、症状別に検索することができます。</p>
+</div>
+    <ul class='lists-right'>
+     <% if user_signed_in? %>
+      <li><%= link_to current_user.nickname, edit_user_path(current_user), class: "user-nickname"  %></li>
+      <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout"%></li> 
+     <% else %>  
+      <li><%= link_to 'ログイン', new_user_session_path, class: "login" %></li>
+      <li><%= link_to '新規登録', new_user_registration_path, class: "sign-up" %></li>
+     <% end %>  
+    </ul>
+</div>
+<ul class="header_menu_container_menu-list">
+  <li> <%= link_to 'ホーム', root_path, class: "header_menu_container_menu-home" %> </li>
+  <li> <%= link_to 'Medical Helperについて', "#", class: "header_menu_container_menu-about" %> </li>
+  <li> <%= link_to 'お薬手帳', "#", class: "header_menu_container_menu-privacy" %> </li>
+  <li> <%= link_to 'お問い合わせ', "#", class: "header_menu_container_menu-contact" %> </li>
+</ul>
+
