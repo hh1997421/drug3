@@ -12,4 +12,7 @@
  *
  *= require_tree .
  *= require_self
- */
+ */ 
+ * {
+  font-family: Noto, Hiragino Sans,Helvetica,Arial,sans-serif;
+ }
