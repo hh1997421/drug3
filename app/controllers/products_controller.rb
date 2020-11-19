@@ -10,7 +10,7 @@ class ProductsController < ApplicationController
     @results = @p.result  # 検索条件にマッチした商品の情報を取得
   end
 
-  def show
+  def edit
   end
 
   private
