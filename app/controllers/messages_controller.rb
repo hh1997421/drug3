@@ -12,7 +12,7 @@ class MessagesController < ApplicationController
   def create
     @message = Message.new(message_params)
     if @message.save
-      redirect_to root_path
+      redirect_to messages_index_path
     else
       render :new
     end
@@ -23,7 +23,7 @@ class MessagesController < ApplicationController
 
   def update
     if @message.update(message_params)
-      redirect_to root_path
+      redirect_to messages_index_path
     else
       render :edit
     end
@@ -32,7 +32,7 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:content, :image)
+    params.require(:message).permit(:content, images: [])
   end
 
   def set_message

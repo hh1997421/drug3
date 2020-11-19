@@ -1,7 +1,7 @@
 <div class="nav">
 <div class="lists-left">
 <%= link_to 'Medical Helper', root_path, class: "header-link" %>
-<p>時間のない方に、症状別にお薬を検索することができます。</p>
+<p class="header-name">時間のない方に、症状別にお薬を検索することができます。</p>
 </div>
     <ul class='lists-right'>
      <% if user_signed_in? %>
@@ -15,8 +15,10 @@
 </div>
 <ul class="header_menu_container_menu-list">
   <li> <%= link_to 'ホーム', root_path, class: "header_menu_container_menu-home" %> </li>
-  <li> <%= link_to 'Medical Helperについて', "#", class: "header_menu_container_menu-about" %> </li>
+  <li> <%= link_to 'Medical Helperについて', "/products/:id/edit", class: "header_menu_container_menu-about" %> </li>
+  <% if user_signed_in? %>
   <li> <%= link_to 'お薬手帳',  messages_index_path, class: "header_menu_container_menu-privacy" %> </li>
+  <% end %>  
   <li> <%= link_to 'お問い合わせ', contacts_new_path, class: "header_menu_container_menu-contact" %> </li>
 </ul>
 

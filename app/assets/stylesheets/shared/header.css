@@ -7,6 +7,11 @@
   padding: 1vh 0;
 }
 
+.header-name {
+  padding: 5px 30px 10px 30px;
+    color: #8f8f8f;
+}
+
 .lists-left {
   min-width: 200px;
 }
@@ -15,6 +20,8 @@
   display: flex;
   list-style: none;
   align-items: flex-end;
+  font-weight: bold;
+  padding: 5px 30px 10px 30px;
 }
 
 
@@ -41,4 +48,10 @@
 .sign-up {
   text-decoration: none;
   color: #333333;
+}
+
+.header_menu_container_menu-list {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
 }

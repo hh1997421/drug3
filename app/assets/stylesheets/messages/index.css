@@ -1,0 +1,18 @@
+.message_main{
+  text-align: center;
+  width: 750px;
+  margin: 40px auto 40px;
+}
+
+
+.messages_index {
+  font-size: 25px;
+  font-weight: 500;
+  background: #f7f7f7;
+  padding: 20px 15px 18px;
+  color: #333;
+  border: 9px solid #7fd9d2;
+  line-height: 40px;
+  margin: 60px 0 40px 0;
+  text-decoration: none;
+}

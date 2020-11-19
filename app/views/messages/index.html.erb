@@ -1,8 +1,13 @@
 <%= render "/shared/header" %>
-<h3>トップページ</h3>
-<h3><%= link_to '新規投稿', new_message_path%></h3>
+<div class="message_main">
+<h3 class="messages_index">お薬の内容を画像として管理できます</h3>
+<h3><%= link_to '新しいお薬を記録', new_message_path%></h3>
 <% @messages.each do |message| %>
   <%= message.content%>
-  <%= image_tag message.image if message.image.present? %>
-  <%= link_to '編集', edit_message_path(message.id)%>
+  <div class="messages">
+    <% message.images.each do |image| %>
+      <%= image_tag image, class:'images' %>
+    <% end %>
+  </div>
 <% end %>
+</div>
