@@ -1,11 +1,13 @@
 <%= render "/shared/header" %>
-<h3>つぶやき相談</h3>
+<div class="tweets_main">
+<h3 class="tweet__container__h2" >つぶやき相談</h3>
 <%= form_with model: @tweet do |f| %>
   <%= f.text_field :text %>
-  <%= f.submit '送信' %>
+  <%= f.submit '送信', class: "tweet_btn" %>
 <% end %>
 <div id='tweets'>
   <% @tweets.reverse_each do |tweet| %>
     <p><%= tweet.text %></p>
   <% end %>
+</div>
 </div>

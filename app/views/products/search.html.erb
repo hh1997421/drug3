@@ -1,6 +1,6 @@
 <%= render "/shared/header" %>
 <div class="search-main">
-<h1>
+<h1 class="search__container__h2">
   こちらがおすすめです！
 </h1>
 <%# 検索結果の個数で条件分岐 %>
@@ -10,7 +10,7 @@
     <br>
     <li>
       <%= result.name %>
-      <%= link_to "通販購入へ!", result.information %>
+      <%= link_to "通販購入へ!", result.information, class: "search_btn" %>
     </li>
   <% end %>
 
@@ -107,8 +107,10 @@ function initMap() {
   該当する商品はありません
 <% end %>
 <br>
+<div class="footer_link">
 <% if user_signed_in? %>
-<%= link_to '薬の情報共有',  new_tweet_path %>
-<%= link_to 'ビデオ相談',  rooms_show_path %>
+<%= link_to '薬の情報共有',  new_tweet_path, class: "search_btn"  %>
+<%= link_to 'ビデオ相談',  rooms_show_path, class: "search_btn" %>
 <% end %>
+</div>
 </div>
