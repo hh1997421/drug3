@@ -59,3 +59,6 @@ gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
 gem 'pry-rails'
 gem 'rails-i18n' #日本語
+gem 'rspec-rails'
+gem 'factory_bot_rails'
+gem 'faker'
