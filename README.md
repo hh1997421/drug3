@@ -14,7 +14,9 @@
 
 - email:abab@gmail.com 
 - パスワード:12abab	
-- Basic認証 
+
+>Basic認証 
+
 - ID:furima 
 - パスワード:7650 
 
@@ -52,7 +54,7 @@
 
                   閲覧履歴やデータの追加など、細かい修正を行う予定です。
 
-##データベース設計	https://i.gyazo.com/3048ba4e99f136c88fc55e86f7d89558.png
+##データベース設計	!(https://i.gyazo.com/3048ba4e99f136c88fc55e86f7d89558.png)
 
 ##ローカルでの動作方法-ターミナル
 
