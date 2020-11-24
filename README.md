@@ -43,13 +43,13 @@
 ##データベース設計	!https://i.gyazo.com/3048ba4e99f136c88fc55e86f7d89558.png
 
 ##ローカルでの動作方法-ターミナル
-                  *% git clone https://github.com/we-b/drug3_app.git
-                  *% cd drug3
-                  *% bundle install
-                  *% yarn install 
-                  *% rails db:create
-                  *% rails db:migrate
-                  *% rails s
+                  - % git clone https://github.com/we-b/drug3_app.git
+                  - % cd drug3
+                  - % bundle install
+                  - % yarn install 
+                  - % rails db:create
+                  - % rails db:migrate
+                  - % rails s
 
                   環境:ruby on rails バージョン:ruby '2.6.5'
 
