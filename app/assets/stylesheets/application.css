@@ -16,3 +16,13 @@
  * {
   font-family: Noto, Hiragino Sans,Helvetica,Arial,sans-serif;
  }
+
+ /* タブレット表示時 */
+ @media (max-width: 1024px) {
+ 
+ }
+
+ /* スマホ表示時 */
+@media (max-width: 599px) {
+
+ }

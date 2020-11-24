@@ -47,3 +47,19 @@
   outline        : 0;                  /* 入力の薄い枠を非表示  */
   font-size      : 12px;               /* フォントサイズ        */
 }
+
+ /* タブレット表示時 */
+ @media (max-width: 1024px) {
+  .products__container__h2 {
+
+  }
+ }
+ 
+ /* スマホ表示時 */
+ @media (max-width: 599px) {
+  .products__container__h2 {
+    width: 50%;
+    margin-left: 50px;
+  }
+ }
+
