@@ -4,6 +4,7 @@
 <h1 class="products__container__h2">
   お悩みの症状は?
 </h1>
+
 <%= search_form_for @p, url: products_search_path do |f| %>
   <%= f.label :status_eq, '症状' %>
   <%= f.collection_select :status_eq, @product_status, :status, :status,  include_blank: '指定なし',  prompt: "何でお悩み？", class: "status_select" %>
