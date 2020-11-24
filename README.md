@@ -54,8 +54,15 @@
 
 1. 薬の検索と結果画面(商品名,商品購入リンク,周辺薬局を表示)
 
-![drug1]()
+[![Image from Gyazo](https://i.gyazo.com/a42a65ee9283433d4ecbc54e5d75f0e0.gif)](https://gyazo.com/a42a65ee9283433d4ecbc54e5d75f0e0)
 
+2.  お薬手帳（会員登録したユーザーのみ）
+
+[![Image from Gyazo](https://i.gyazo.com/92b4b0bc44a1a2c72ee63bd84f52f6bc.gif)](https://gyazo.com/92b4b0bc44a1a2c72ee63bd84f52f6bc)
+
+3.  コメント相談(会員登録したユーザーのみ)
+
+[![Image from Gyazo](https://i.gyazo.com/713cfcb6f5e0447eacfb574e7f99cc1d.gif)](https://gyazo.com/713cfcb6f5e0447eacfb574e7f99cc1d)
 
 
 ## 実装予定の機能	
@@ -64,7 +71,7 @@
 
 ## データベース設計	
 
-[![Image from Gyazo](https://i.gyazo.com/a42a65ee9283433d4ecbc54e5d75f0e0.gif)](https://gyazo.com/a42a65ee9283433d4ecbc54e5d75f0e0)
+[![Image from Gyazo](https://i.gyazo.com/9d5e80499ee3f1f0bd06ee8226ee74bd.png)](https://gyazo.com/9d5e80499ee3f1f0bd06ee8226ee74bd)
 
 ## ローカルでの動作方法-ターミナル
 
