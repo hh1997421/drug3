@@ -102,7 +102,7 @@ function initMap() {
 }
     
 </script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeBpgNQohfieOCk14WIlx6eS33oB76nXs&callback=initMap&libraries=places" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['API_KEY']%>&callback=initMap&libraries=places" async defer></script>
 <% else %>
   該当する商品はありません
 <% end %>

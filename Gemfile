@@ -62,3 +62,4 @@ gem 'rails-i18n' #日本語
 gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'faker'
+gem 'dotenv-rails'
