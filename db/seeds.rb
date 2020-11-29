@@ -2,6 +2,8 @@ Product.create(status:'足のつり', name:'芍薬甘草湯', price:'1500', slee
 Product.create(status:'胃腸', name:'半夏瀉心湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/package/c_stomach.html?_ga=2.167568638.1360220208.1604898102-100837335.1603968146#rikkunsito')
 Product.create(status:'お通じ', name:'麻子仁丸', price:'2000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/package/c_constipation.html?_ga=2.65848558.1360220208.1604898102-100837335.1603968146#mashiningan')
 Product.create(status:'頭痛', name:'呉茱萸湯', price:'2000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/headache/?_ga=2.125617226.1360220208.1604898102-100837335.1603968146')
+Product.create(status:'頭痛', name:'タイレノール', price:'1000', sleep:'なし', information:'https://lohaco.jp/product/8937946')
+Product.create(status:'頭痛', name:'イブクイック頭痛薬DX', price:'2000', sleep:'あり', information:'https://lohaco.jp/product/2648383')
 Product.create(status:'ストレス', name:'半夏厚朴湯', price:'3000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/stress/?_ga=2.125617226.1360220208.1604898102-100837335.1603968146')
 Product.create(status:'肌トラブル', name:'黄連解毒湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/skin/?_ga=2.129959116.1360220208.1604898102-100837335.1603968146')
 Product.create(status:'鼻炎', name:'小青竜湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/skin/?_ga=2.129959116.1360220208.1604898102-100837335.1603968146')
