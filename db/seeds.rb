@@ -1,5 +1,6 @@
 Product.create(status:'足のつり', name:'芍薬甘草湯', price:'1500', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/package/c_cramp.html')
 Product.create(status:'胃腸', name:'半夏瀉心湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/package/c_stomach.html?_ga=2.167568638.1360220208.1604898102-100837335.1603968146#rikkunsito')
+Product.create(status:'胃腸', name:'新セルベール整胃プレミアム', price:'3000', sleep:'なし', information:'https://lohaco.jp/product/X805922')
 Product.create(status:'お通じ', name:'麻子仁丸', price:'2000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/package/c_constipation.html?_ga=2.65848558.1360220208.1604898102-100837335.1603968146#mashiningan')
 Product.create(status:'お通じ', name:'コーラック', price:'1000', sleep:'なし', information:'https://lohaco.jp/product/4755346')
 Product.create(status:'頭痛', name:'呉茱萸湯', price:'2000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/headache/?_ga=2.125617226.1360220208.1604898102-100837335.1603968146')
