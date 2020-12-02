@@ -8,6 +8,7 @@ Product.create(status:'頭痛', name:'タイレノール', price:'1000', sleep:'
 Product.create(status:'頭痛', name:'イブクイック頭痛薬DX', price:'2000', sleep:'あり', information:'https://lohaco.jp/product/2648383')
 Product.create(status:'ストレス', name:'半夏厚朴湯', price:'3000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/stress/?_ga=2.125617226.1360220208.1604898102-100837335.1603968146')
 Product.create(status:'肌トラブル', name:'黄連解毒湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/skin/?_ga=2.129959116.1360220208.1604898102-100837335.1603968146')
+Product.create(status:'肌トラブル', name:'ハイチオールBクリア', price:'2000', sleep:'なし', information:'https://wowma.jp/item/476603167?aff_id=PLA_m_52020302')
 Product.create(status:'鼻炎', name:'小青竜湯', price:'1000', sleep:'なし', information:'https://www.kracie.co.jp/ph/k-therapy/product/symptom/skin/?_ga=2.129959116.1360220208.1604898102-100837335.1603968146')
 Product.create(status:'鼻炎', name:'アレジオン', price:'2000', sleep:'なし', information:'https://minacolor.com/items/6054/')
 Product.create(status:'風邪', name:'葛根湯', price:'1000', sleep:'なし', information:'https://www.tsumura.co.jp/kampo/list/detail/001.html')
