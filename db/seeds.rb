@@ -12,3 +12,4 @@ Product.create(status:'鼻炎', name:'小青竜湯', price:'1000', sleep:'なし
 Product.create(status:'鼻炎', name:'アレジオン', price:'2000', sleep:'なし', information:'https://minacolor.com/items/6054/')
 Product.create(status:'風邪', name:'葛根湯', price:'1000', sleep:'なし', information:'https://www.tsumura.co.jp/kampo/list/detail/001.html')
 Product.create(status:'風邪', name:'パブロンゴールドA', price:'2000', sleep:'あり', information:'https://lohaco.jp/product/1710304/?int_id=rkg_itemlist_1')
+Product.create(status:'目薬', name:'Vロートプレミアム', price:'1000', sleep:'なし', information:'https://www.amazon.co.jp/%E3%83%AD%E3%83%BC%E3%83%88%E7%9B%AE%E8%96%AC-%E3%80%90%E7%AC%AC2%E9%A1%9E%E5%8C%BB%E8%96%AC%E5%93%81%E3%80%91V%E3%83%AD%E3%83%BC%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0-15mL/dp/B01LZD5DH3/ref=zg_bs_202287011_13?_encoding=UTF8&psc=1&refRID=G21B9EMNE9PE1Z78HCZA')
